@@ -7,3 +7,6 @@
 [submodule "content/mu-plugins/wordpress-memcached-backend"]
 	path = content/mu-plugins/wordpress-memcached-backend
 	url = git@github.com:danielbachhuber/wordpress-memcached-backend.git
+[submodule "content/mu-plugins/easy-mode-auto-deploy"]
+	path = content/mu-plugins/easy-mode-auto-deploy
+	url = git@github.com:danielbachhuber/Easy-Mode-Auto-Deploy.git
