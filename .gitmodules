@@ -4,3 +4,6 @@
 [submodule "content/mu-plugins/co-authors-plus"]
 	path = content/mu-plugins/co-authors-plus
 	url = git@github.com:Automattic/Co-Authors-Plus.git
+[submodule "content/mu-plugins/wordpress-memcached-backend"]
+	path = content/mu-plugins/wordpress-memcached-backend
+	url = git@github.com:danielbachhuber/wordpress-memcached-backend.git
