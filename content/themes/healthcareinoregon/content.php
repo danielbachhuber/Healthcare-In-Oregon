@@ -15,6 +15,10 @@
 		<?php endif; // is_single() ?>
 	</header><!-- .entry-header -->
 
+	<div class="entry-meta">
+		<?php echo sprintf( __( 'By %s', 'twentytwelve' ), coauthors_posts_links( null, null, null, null, false ) ); ?>
+	</div>
+
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>

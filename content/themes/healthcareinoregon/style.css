@@ -9,3 +9,14 @@ Version:        0.1.0
 */
 
 @import '../twentytwelve/style.css';
+
+div.entry-meta {
+	margin-top: 16px;
+	margin-top: 1.142857143rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.142857143rem;
+	font-size: 13px;
+	font-size: 0.928571429rem;
+	line-height: 1.846153846;
+	color: #757575;
+}
