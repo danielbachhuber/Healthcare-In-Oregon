@@ -42,7 +42,7 @@ $orhc_constant_defaults = array(
 	'LOGGED_IN_SALT'     => '',
 	'NONCE_SALT'         => '',
 	'WP_SITEURL'         => 'http://healthcareinoregon.org/wp',
-	'WP_HOME'            => 'http://healthcareinoregon.org'
+	'WP_HOME'            => 'http://healthcareinoregon.org',
 	);
 
 foreach( $orhc_constant_defaults as $key => $value ) {
@@ -97,9 +97,6 @@ define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 // Set path to MU Plugins.
 define( 'WPMU_PLUGIN_DIR', dirname( __FILE__ ) . '/content/mu-plugins' );
 define( 'WPMU_PLUGIN_URL', WP_HOME . '/content/mu-plugins' );
-
-// Set default theme.
-define( 'WP_DEFAULT_THEME', 'twentyfourteen' );
 
 // Prevent editing of files through the admin.
 define( 'DISALLOW_FILE_EDIT', true );
