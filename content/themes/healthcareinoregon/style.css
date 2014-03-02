@@ -1,0 +1,11 @@
+/*
+Theme Name:     Healthcare In Oregon
+Theme URI:      http://healthcareinoregon.org
+Description:    Twentytwelve child theme.
+Author:         Daniel Bachhuber
+Author URI:     http://danielbachhuber.com
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import '../twentytwelve/style.css';
